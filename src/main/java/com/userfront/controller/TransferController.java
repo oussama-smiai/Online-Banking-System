@@ -20,7 +20,7 @@ import com.userfront.domain.User;
 import com.userfront.service.TransactionService;
 import com.userfront.service.UserService;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @Controller
 @RequestMapping("/transfer")
 public class TransferController {

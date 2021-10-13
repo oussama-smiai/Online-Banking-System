@@ -18,7 +18,7 @@ import com.userfront.domain.User;
 import com.userfront.service.AppointmentService;
 import com.userfront.service.UserService;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @Controller
 @RequestMapping("/appointment")
 public class AppointmentController {

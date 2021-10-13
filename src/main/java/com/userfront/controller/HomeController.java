@@ -19,7 +19,7 @@ import com.userfront.domain.User;
 import com.userfront.domain.security.UserRole;
 import com.userfront.service.UserService;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @Controller
 public class HomeController {
 	

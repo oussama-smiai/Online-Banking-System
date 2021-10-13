@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.userfront.domain.User;
 import com.userfront.service.UserService;
 
-@CrossOrigin
+@CrossOrigin(origins = "*")
 @Controller
 @RequestMapping("/user")
 public class UserController {
