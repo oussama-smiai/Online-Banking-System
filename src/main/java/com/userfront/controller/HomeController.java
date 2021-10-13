@@ -34,6 +34,7 @@ public class HomeController {
 		return "redirect:/index";
 	}
 	
+	@CrossOrigin(origins = "*")
 	@RequestMapping("/index")
     public String index() {
         return "index";
